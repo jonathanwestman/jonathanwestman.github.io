@@ -41,7 +41,15 @@ const IndexPage = () => (
           </div>
           <div className="project-description">
             <h4>ActiveLAMP</h4>
-            <p>Working with ActiveLAMP I have had the opportunity to work with enterprise level clients as well as internal projects. I have participated in daily standup meetings as well as regular sprint planning sessions using the Agile Scrum Methodology. I wrote multiple blog posts and a video tutorial. I have had the opporturnity to use multiple front-end technologies and have been exposed to backend technololgies as well as project automation. </p>
+            <p>Working with ActiveLAMP I have had the opportunity to work with enterprise 
+              level clients, such as those listed below, as well as internal projects - such 
+              as a slack integration, the company website, and a niche CRM - managed with the 
+              Agile Scrum methodology. I wrote multiple blog posts, documentation, and video 
+              tutorials, which include client tutorials and walkthroughs. I have worked with 
+              multiple front-end technologies, such as Drupal, AngularJS, Mustache, Twig, 
+              and CSS preprocessors. I have been exposed to backend technologies, such as Node, 
+              Socket.io, Seneca, and REST APIs. I have also used and setup project automation 
+              using Jenkins, TravisCI, Composer, Drupal CLI, and other CLI services.</p>
           </div>
         </div>
         
@@ -50,8 +58,14 @@ const IndexPage = () => (
             <img  src={uclalogo} alt="UCLA Logo" />
           </div>
           <div className="project-description">
-            <h4>UCLA IT Services and Related Sites</h4>
-            <p>I worked as part of the ActiveLAMP team on the creation of the Drupal theme and site structure that is used on multiple sites within the UCLA network of sites. I have played an active role in managing the code before it is release to their staging envirinment. Tagging the releases for deployment and writing the release notes that are provided to the client. I also led the team creating a secondary theme that can be implemented into the same site using the Pattern Lab atomic design system.</p>
+            <h4>UCLA IT Services</h4>
+            <p>Under ActiveLAMP, I led a team to create Drupal themes and implemented the site 
+              architecture that is used on multiple sites within the UCLA network. I played an 
+              active role in managing the code before it is released to their staging 
+              environment - tagged the releases for deployment and wrote the release notes that 
+              were provided to the client. One of the themes was created using Pattern Lab, 
+              which implements the atomic design system and mustache templates to integrate 
+              dynamically with Drupal.</p>
           </div>
         </div>
 
@@ -61,7 +75,12 @@ const IndexPage = () => (
           </div>
           <div className="project-description">
             <h4>XPRIZE</h4>
-            <p>I worked as part of the ActiveLAMP team on the creation of the Drupal site and theme. Using the designs provided from another team we came up with the information structure and developed the site that was able to manage content for multiple domains. We implemnted other front-end technologies as well as third-party serveces into the Drupal site as necessary.</p>
+            <p>As part of the ActiveLAMP team, using designs provided by a third party vendor, we 
+              created a Drupal site and theme. We designed the information structure and developed 
+              a platform that allowed them to manage content for multiple domains. We implemented 
+              front-end technologies as well as third-party services into the Drupal site as 
+              necessary, including MailChimp, Google Tag Manager, Facebook OpenGraph, PollDaddy, 
+              and AngularJS.</p>
           </div>
         </div>
       </div>
@@ -80,8 +99,6 @@ const IndexPage = () => (
         </div>
       </div>
     </div>
-
-
   </div>
 )
 
