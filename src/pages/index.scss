@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+
+body {
+    font-family: 'Varela Round', sans-serif;
+}
+
+.profile-photo {
+    margin: 0 auto;
+    width: 350px;
+
+    @media (min-width: 980px) {
+        float: left;
+        padding-right: 2em;
+        padding-top: 2em;
+        width: 30%;
+    }
+}
+#about {
+    margin: 4em auto;
+    color: #46B231;
+    max-width: 570px;
+
+    @media (min-width: 980px) {
+        max-width: 100%;
+    }
+
+    h2 {
+        font-size: 4.5rem;
+    }
+
+    p {
+        color: #727272;
+        text-align: center;
+    }
+}
+
+.section {
+    background: #46B231 url('../images/section-rectangle.png') center;
+    background-size: cover;  
+    color: white;
+    margin-bottom: 4em;
+    padding: 3em 4em;
+    text-align: center;
+
+    h3 {
+        font-size: 3em;
+        margin-bottom: 0;
+    }
+}
+
+.project {
+    color: #727272;
+    display: grid;
+    margin-bottom: 2.5rem;
+    grid-template-rows: 50% 50%;
+
+    @media (min-width: 980px) {
+        grid-template-columns: 25% 70%;
+    }
+
+}
+
+.project-logo {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    grid-column: 1;
+    grid-row: 1;
+
+    @media (min-width: 980px) {
+        text-align: left;
+        grid-column: 1;
+        grid-row: 1;
+    }
+}
+
+.project-description {
+    grid-column: 1;
+    grid-row: 2;
+
+    @media (min-width: 980px) {
+        grid-column: 2;
+        grid-row: 1 / -1;
+    }
+}
+
+.project-logo img {
+    margin-bottom: 0;
+    max-width: 214px;  
+    padding: 20px;
+}
+
+.ucla .project-logo img {
+    background: #003D6E;
+}
+
+
+h4 {
+    font-size: 1.2rem;
+}
+
+.contact {
+    color: #727272;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    a {
+        color: #46B231;
+    }
+
+    
+}

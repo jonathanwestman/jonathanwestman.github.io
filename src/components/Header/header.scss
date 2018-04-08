@@ -1,0 +1,69 @@
+.header {
+    background: #46B231;
+    color: white;
+}
+
+.header-inner {
+    max-width: 960px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 50% 50%;
+
+    @media (min-width: 980px) {
+        grid-template-rows: 100%;
+        grid-template-columns: 60% 40%;
+    }
+}
+
+.branding {
+    grid-row: 1;
+    padding: 1.45rem 1.0875rem;
+
+    @media (min-width: 980px) {
+        grid-column: 1;
+        margin: 0;
+    }
+}
+
+.logo {
+    min-width: 50%;
+    text-decoration: none;
+    margin: 0;
+}
+
+.navigation {
+    grid-row: 2;
+
+    @media (min-width: 980px) {
+        grid-row: 1;
+        grid-column: 2;
+        margin: 1em;
+    }
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    margin: 1em 0;
+    padding: 0;
+    text-decoration: none;
+
+    li {
+        display: inline;
+        padding: 0;
+        margin: 0;
+
+        a {
+            color: white;
+            text-decoration: none;
+
+            &:hover {
+                border-bottom: 2px solid white;
+            }
+        }
+    }
+
+    @media (min-width: 980px) {
+        justify-content: space-between;
+    }
+}

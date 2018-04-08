@@ -1,0 +1,17 @@
+.footer {
+    background: #46B231;
+    color: white;
+    padding: 1em 0 .01em;
+}
+
+.copyright {
+    text-align: center;
+    a {
+        color: white;
+        text-decoration: none;
+        
+        &:hover {
+            border-bottom: 2px solid white;
+        }
+    }
+}
